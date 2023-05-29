@@ -1,0 +1,524 @@
+.NavDesktop{
+    height: 120px;
+   
+}
+.LogoDiv{
+width: 150px;
+height: 89px;
+
+}
+.NavItemsDEsktopDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: white;
+}
+.NavItemDesktop{
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+margin: 0px 24px;
+}
+.HeroSectionDesktop{
+    width: 100vw;
+    height: 900px;
+    /* background-image: url("/images/headBg1.png");
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    position: relative;
+
+}
+.BitcoinImg{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.BitcoinImg1{
+    position: absolute;
+    top: 0%;
+    right: 20%;
+}
+.StarImg{
+    position: absolute;
+    top: 80%;
+    right: 15%;
+}
+.StarImg1{
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+.ButtonDesktop{
+display: flex;
+flex-direction: row;
+padding: 10px 20px;
+width: 140px;
+height: 45px;
+background: #FFAF00;
+border-radius: 10px;
+font-weight: 400;
+font-size: 20px;
+}
+.EducationH1Desktop{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 65px;
+line-height: 130%;
+text-align: center;
+color: #FFFFFF;
+width: 80%;
+margin: auto;
+}
+.EducationPTagDesktop{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+width: 60%;
+margin: auto;
+color: white;
+}
+.ButtonsForDesktop{
+width: 160px;
+background: #FFAF00;
+border-radius: 10px;
+color: white;
+height: 55px;
+}
+.WomenINBTCDesktopDiv{
+    width: 80%;
+    height: 500px;
+    /* border: #FFAF00 1px solid; */
+    margin: auto;
+}
+.WomenINBTCDesktop{
+    width: auto;
+    margin: auto;
+    height: 400px;
+}
+
+.TopicPtag{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+}
+.Women1DivPic{
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,black,transparent,transparent);
+  }
+.AboutUsDesktop{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+}
+.YelloSpan{
+    color: #FFAF00;
+}
+.YellowLine{
+    width:122px ;
+    height: 3px;
+    background-color: #FFAF00;
+    margin: 5px 0px;
+}
+.IndividualWhatWeDo{
+    width: 299px;
+height: 188px;
+background: #1E1E1E;
+}
+.IndividualWhatWeDo1{
+     width: 299px;
+height: 200px;
+background: rgba(255, 175, 0, 0.1);
+}
+.IndividualWhatWeDoTopic{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #FFAF00;
+}
+.ApplyToLaunch{
+width: 90%;
+height: 385px;
+position: relative;
+background: #202020;
+border: 1px solid #FFAF00;
+border-radius: 15px;
+color: white;
+margin-top: 4rem;
+margin-bottom: 4rem;
+}
+.calendarDesktopDiv{
+    position: absolute;
+    right: 0;
+    top: -35%;
+    width: 500px;
+    height: 550px;
+}
+
+.DonateDiv{
+width: 90%;
+height: 275px;
+background: #202020;
+border: 1px solid #FFAF00;
+border-radius: 15px;
+position: relative;
+margin-top: 5rem;
+margin-bottom: 5rem;
+}
+.giftDesktopDiv{
+    position: absolute;
+    right: 0;
+    bottom: -25%;
+    width: 420px;
+    height: 470px;
+}
+.Subscribe{
+    width: 100vw;
+    height: 20vh;
+}
+.InboxMiniDivDesktop{
+    width: 50vw;
+    margin: auto;
+    color: white;
+}
+.SubscribeInputField{
+    width: 552px;
+height: 80px;
+background: #202020;
+border: 1px solid #FFAF00;
+border-radius: 15px;
+}
+.SubscribeInputField:focus{
+    outline: none;
+    margin: none;
+}
+.FooterDesktop{
+    height: max-content;
+    color: white;
+    width: 100vw;
+
+}
+.WhatWeDoDesktop{
+    height: max-content;
+    margin-top: 3rem;
+    margin-bottom: 15rem;
+    display: flex;
+}
+
+@media screen and (max-width:1200px) {
+    .TopicPtag{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        }
+    .SubscribeInputField{
+    width: 500px;
+    height: 75px;
+    }
+    .DonateDiv{
+        width: 90%;
+        height: 200px;
+        }
+.giftDesktopDiv{
+    width: 350px;
+    height: 360px;
+}
+.ApplyToLaunch{
+    width: 90%;
+    height: 285px;
+    }
+.calendarDesktopDiv{
+        right: 0;
+        top: -35%;
+        width: 370px;
+        height: 365px;
+    }
+}
+
+.AboutUsDiv{
+    display: flex;
+}
+.AboutUsInfoDiv{
+    width: 50%;
+}
+@media screen and (max-width:920px) {
+    .YellowLine{
+        width: 100px;
+    }
+
+    .WomenINBTCDesktopDiv{
+        width: 100%;
+        height: 500px;
+       overflow: hidden;
+        margin: auto;
+    }
+    .WomenINBTCDesktop{
+        width: auto;
+        margin: auto;
+        height: 400px;
+    }
+    .TopicPtag{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        }
+    .AboutUsInfoDiv{
+        width: 100%;
+    }
+    .AboutUsDiv{
+ display: grid;
+    }
+    .Women1DivPic{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .gradientOverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top,black,transparent,transparent);
+      }
+    .DonateDiv{
+        width: 90%;
+        height: 190px;
+        }
+.giftDesktopDiv{
+    width: 320px;
+    height: 320px;
+}
+.ApplyToLaunch{
+    width: 90%;
+    height: 200px;
+    }
+.calendarDesktopDiv{
+        right: 0;
+        top: -35%;
+        width: 280px;
+        height: 250px;
+    }
+.AboutUsDesktop{
+        font-size: 26px;
+        line-height: 24px;
+        }
+.InboxMiniDivDesktop{
+            width: 70vw;
+            margin: auto;
+            color: white;
+        }
+.SubscribeInputField{
+        width: 350px;
+        height: 60px;
+        border-radius: 10px;
+        }
+.ButtonsForDesktop{
+ width: 150px;
+ border-radius: 10px;
+ height: 50px;
+ }       
+ }
+@media screen and (max-width:768px) {
+    .YellowLine{
+        width: 80px;
+    }
+    .ButtonDesktop{
+        width: 120px;
+        border-radius: 10px;
+        height: 40px;
+    }
+    .BitcoinImg{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        width: 50px;
+        height: 50px;
+    }
+    .BitcoinImg1{
+        position: absolute;
+        top: 10%;
+        right: 0%;
+        width: 70px;
+        height: 60px;
+        
+    }
+    .StarImg{
+        position: absolute;
+        top: 90%;
+        right: 15%;
+        width: 30px;
+        height: 30px;
+    }
+    .StarImg1{
+        position: absolute;
+        bottom:0%;
+        width: 30px;
+        height: 40px;
+        left: 5%;
+    }
+    .EducationPTagDesktop{
+        width: 85%;
+    }
+    .Women1DivPic{
+        width: 100%;
+        height: 400px;
+    }
+    .InboxMiniDivDesktop{
+        width: 80vw;
+    }
+    .DonateDiv{
+        width: 95%;
+        height: 150px;
+        }
+.giftDesktopDiv{
+    width: 250px;
+    height: 250px;
+}
+.ApplyToLaunch{
+    width: 95%;
+    height: 200px;
+    }
+.calendarDesktopDiv{
+        right: 0;
+        top: -35%;
+        width: 270px;
+        height: 250px;
+    }
+.AboutUsDesktop{
+        font-size: 20px;
+        }
+.ButtonsForDesktop{
+    width: 120px;
+    border-radius: 10px;
+    height: 40px;
+    } 
+    .EducationH1Desktop{
+        font-size: 50px;
+        line-height: 130%;
+        width: 85%;
+        }  
+       .TopicPtag  {
+        font-size: 24px;
+        line-height: 36px;
+       }         
+    }
+
+    @media screen and (max-width:520px) {
+        .YellowLine{
+            width: 50px;
+        }
+        .ButtonDesktop{
+            width: 100px;
+            border-radius: 10px;
+            height: 40px;
+            font-size: 16px;
+        }
+        .WomenINBTCDesktopDiv{
+            width: 80%;
+            height: 300px;
+            /* border: #FFAF00 1px solid; */
+            margin: auto;
+        }
+        .WomenINBTCDesktop{
+            width: auto;
+            margin: auto;
+            height: 300px;
+        }
+        .EducationH1Desktop{
+            font-size: 40px;
+            line-height: 100%;
+            width: 98%;
+            } 
+        .InboxMiniDivDesktop{
+            width: 90vw;
+        }
+        .SubscribeInputField{
+            width: 230px;
+            height: 50px;
+            border-radius: 10px;
+            }       
+        .DonateDiv{
+            width: 95%;
+            height: 130px;
+            }
+    .giftDesktopDiv{
+        width: 180px;
+        height: 200px;
+    }
+    .ApplyToLaunch{
+        width: 95%;
+        height: 180px;
+        }
+    .calendarDesktopDiv{
+            right: 0;
+            top: -35%;
+            width: 180px;
+            height: 200px;
+        }
+    .AboutUsDesktop{
+            font-size: 20px;
+            }
+.ButtonsForDesktop{
+ width: 100px;
+ border-radius: 10px;
+ height: 40px;
+ font-size: 16px;
+ } 
+     }   
+    .FirstPartDesktop{
+        width: 50%;
+        text-align: start;
+        display: grid;
+    }
+    .AgainGRiParts{
+        width: 50%;
+    }
+@media screen and (max-width:920px) {    
+    .WhatWeDoDesktop{
+        display: grid;
+    }
+    .FirstPartDesktop{
+        width: 100%;
+        text-align: start;
+    }
+    .AgainGRiParts{
+        width: 100%;
+    }
+    .IndividualWhatWeDo1{
+        width: 260px;
+   height: 300px;
+   background: rgba(255, 175, 0, 0.1);
+   }
+    
+}
+
+
+
+/* Nav */
+@media screen and (max-width:768px) {  
+.NavItemsDEsktopDiv{
+    display: hidden;
+}
+}

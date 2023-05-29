@@ -1,0 +1,98 @@
+.TabComponent{
+/* width: 100vw; */
+min-height: 80vh;
+/* background-color: blanchedalmond; */
+margin: auto;
+}
+.PersonDiv{
+    width: 496px;
+    height: 443px;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    position: relative;
+}
+.PersonDivImg{
+overflow: hidden;
+}
+.PersonDEtails{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.KalonduDiv{
+    width: 100% ;
+    min-height: 230px;
+    border-left: 2px solid #FFAF00;
+    position: relative;
+}
+.YellowCIrcle{
+    width: 48px;
+height: 48px;
+background: #1E1E1E;
+border: 9px solid #FFAF00;
+border-radius: 100%;
+position: absolute;
+left: -4%;
+}
+
+@media screen and (max-width:1200px) {  
+.PersonDiv{
+    width: 400px;
+    height: 360px;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    position: relative;
+}
+}
+
+.MobileDesign{
+display: none;
+}
+.DesktopDesign{
+    display: grid;
+}
+@media screen and (max-width:920px) { 
+
+.MobileDesign{
+display: grid;
+}
+.DesktopDesign{
+    display: none;
+}
+.ImagePersonMobile{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.YellowCIrcle{
+ width: 30px;
+height: 30px;
+border-radius: 100%;
+left: -2.5%;
+}
+ }
+
+ @media screen and (max-width:768px) { 
+    .YellowCIrcle{
+ width: 30px;
+height: 30px;
+border-radius: 100%;
+left: -3%;
+}
+} 
+@media screen and (max-width:520px) {
+       .YellowCIrcle{
+ width: 30px;
+height: 30px;
+border-radius: 100%;
+left: -3%;
+}
+ } 
+@media screen and (max-width:420px) { 
+       .YellowCIrcle{
+ width: 30px;
+height: 30px;
+border-radius: 100%;
+left: -4%;
+}
+}  

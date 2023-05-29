@@ -1,0 +1,24 @@
+.MainWords{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+color: #FFAF00;
+
+}
+.GridFooterDesktop{
+    min-height: 30vh;
+}
+.FooterLine{
+    width: 100vw;
+    background-color: #facc6a;
+    height: 1px;
+}
+@media screen and (max-width:768px) {  
+    .GridFooterDesktop{
+        min-height: 30vh;
+       
+    }
+}

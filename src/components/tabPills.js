@@ -45,7 +45,7 @@ return(
 
 {/* MObile */}
 <div className={`${styles.MobileDesign}`}>
-<div className={`${styles.TabComponent} grid items-center w-11/12 py-12`}>
+<div className={`${styles.TabComponent} grid items-center w-10/12 py-12 mx-auto`}>
 <p className={`${stylesz.AboutUsDesktop} text-white w-full place-content-start `}  >What Students Say About Us</p>
 <div className={`${stylesz.YellowLine}`}></div>
 <div className='grid items-center pt-8'>
@@ -70,7 +70,7 @@ return(
         <img  src='/images/person1.png' className={`${styles.ImagePersonMobile} ml-6`}/>
         <p className='px-12 text-[#FFAF00] font-semibold'>Lucy Manzi</p>
         </div>
-        <p className='flex flex-wrap text-[18px] text-white py-8 px-4 w-full'> The African woman has been demeaned for as long as we can retrace our history. Financial literacy was not championed for us. And as with every passing revolution Africa has been left behind. Bitcoin however levels the playfield across the globe. Bitcoin education for women opens vast opportunities ranging from careers to financial liberation. Bitcoin Dada sets an entry point for us to participate in the ecosystem without fear or doubts. </p>
+        <p className='flex flex-wrap text-[16px] text-white py-8 px-4 w-full'> The African woman has been demeaned for as long as we can retrace our history. Financial literacy was not championed for us. And as with every passing revolution Africa has been left behind. Bitcoin however levels the playfield across the globe. Bitcoin education for women opens vast opportunities ranging from careers to financial liberation. Bitcoin Dada sets an entry point for us to participate in the ecosystem without fear or doubts. </p>
     </div>
 
 </div>

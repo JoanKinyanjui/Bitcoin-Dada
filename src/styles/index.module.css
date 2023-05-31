@@ -1,6 +1,8 @@
 .NavDesktop{
     height: 120px;
-    font-family: System;
+    /* font-family:BlinkMacSystemFont, 'Segoe UI', system-ui, -apple-system; */
+    /* font-family: System; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 .LogoDiv{
@@ -106,17 +108,20 @@ height: 55px;
 }
 
 .TopicPtag{
-font-family: 'Inter';
+/* font-family: 'Inter'; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 58px;
 }
 .Women1DivPic{
-    width: 50%;
+    margin-right: auto;
+    width: 90%;
     height: 600px;
     position: relative;
 }
+
 .gradientOverlay {
     position: absolute;
     top: 0;
@@ -126,7 +131,8 @@ line-height: 58px;
     background: linear-gradient(to top,black,transparent,transparent);
   }
 .AboutUsDesktop{
-font-family: 'Inter';
+/* font-family: 'Inter'; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -152,7 +158,8 @@ height: 200px;
 background: rgba(255, 175, 0, 0.1);
 }
 .IndividualWhatWeDoTopic{
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -160,7 +167,7 @@ line-height: 29px;
 color: #FFAF00;
 }
 .ApplyToLaunch{
-width: 90%;
+width: 70%;
 height: 385px;
 position: relative;
 background: #202020;
@@ -179,7 +186,7 @@ margin-bottom: 4rem;
 }
 
 .DonateDiv{
-width: 90%;
+width: 70%;
 height: 275px;
 background: #202020;
 border: 1px solid #FFAF00;
@@ -224,7 +231,7 @@ border-radius: 15px;
 .WhatWeDoDesktop{
     height: max-content;
     margin-top: 3rem;
-    margin-bottom: 15rem;
+    margin-bottom:10rem;
     display: flex;
 }
 
@@ -237,7 +244,7 @@ border-radius: 15px;
     }
     .TopicPtag{
         font-weight: 700;
-        font-size: 40px;
+        font-size: px;
         line-height: 48px;
         }
     .SubscribeInputField{
@@ -245,7 +252,7 @@ border-radius: 15px;
     height: 75px;
     }
     .DonateDiv{
-        width: 90%;
+        width: 80%;
         height: 200px;
         }
 .giftDesktopDiv{
@@ -253,8 +260,8 @@ border-radius: 15px;
     height: 360px;
 }
 .ApplyToLaunch{
-    width: 90%;
-    height: 285px;
+    width: 80%;
+    height: 200px;
     }
 .calendarDesktopDiv{
         right: 0;
@@ -268,7 +275,7 @@ border-radius: 15px;
     display: flex;
 }
 .AboutUsInfoDiv{
-    width: 50%;
+    width: 100%;
 }
 @media screen and (max-width:920px) {
     .LogoDiv{
@@ -298,7 +305,7 @@ border-radius: 15px;
     }
     .TopicPtag{
         font-weight: 700;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 40px;
         }
     .AboutUsInfoDiv{
@@ -321,7 +328,7 @@ border-radius: 15px;
         background: linear-gradient(to top,black,transparent,transparent);
       }
     .DonateDiv{
-        width: 90%;
+        width: 80%;
         height: 190px;
         }
 .giftDesktopDiv{
@@ -329,7 +336,7 @@ border-radius: 15px;
     height: 320px;
 }
 .ApplyToLaunch{
-    width: 90%;
+    width: 80%;
     height: 200px;
     }
 .calendarDesktopDiv{

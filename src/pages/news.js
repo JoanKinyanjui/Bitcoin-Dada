@@ -7,7 +7,7 @@ import styles  from '../styles/index.module.css';
 function News() {
   return (
 <>
-<div className={`${stylesz.OverallNewsPage} pt-8 `}>
+<div className={`${stylesz.OverallNewsPage}  `}>
         <Nav />
         <div className={`${stylesz.ImageContainer}`}>
             {/* <img src='/images/newsbackground.jpg' className={`${styles.ImageContainerIndividualImage}`}/> */}
@@ -45,7 +45,7 @@ The right education remains vital to the widespread adoption of Bitcoin and bloc
 Bitcoin Dada is a unique platform working towards educating African women about Bitcoin. Its mission is to create a safe and inclusive space for the African woman to learn about Bitcoin while being a part of a women-focused community that wants her to succeed.
 </p>
         </div>
-       <div className={`${styles.FooterDesktop}`}>
+       <div className={`${styles.FooterDesktop} pt-12`}>
     <Footer />
     </div>
         </div>

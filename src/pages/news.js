@@ -7,13 +7,14 @@ import styles  from '../styles/index.module.css';
 function News() {
   return (
 <>
-<div className={`${stylesz.OverallNewsPage} pt-8 pb-12`}>
+<div className={`${stylesz.OverallNewsPage} pt-8 `}>
         <Nav />
         <div className={`${stylesz.ImageContainer}`}>
-            <img src='/images/now.png' className='w-full h-full'/>
+            {/* <img src='/images/newsbackground.jpg' className={`${styles.ImageContainerIndividualImage}`}/> */}
+            <div className={`${stylesz.NewsandPress}`}>News & Press</div>
         </div>
         <div className='py-12'>
-        <div className={`${stylesz.IndividualWhatWeDo1} text-center grid items-center`}>
+        <div className={`${stylesz.IndividualWhatWeDo1} text-center grid items-center `}>
           <p className={`${stylesz.IndividualWhatWeDoTopic} py-6 text-[#FFAF00]`}>Bitcoin Dada Launches Free Bitcoin Training for Women</p>
           <p className='text-[16px] md:text-[18px] px-4 text-start'> The empowering course narrows the gender divide in the Bitcoin niche by providing education and a safe, supportive space for women.
 Nairobi, August 18, 2022—Bitcoin Dada, a one-of-a-kind bitcoin education platform focused on women, launched free bitcoin training for women through online courses. It is open to women from anywhere in the country. This launch marks a first in making the bitcoin niche open to women by tailoring the training to their needs.

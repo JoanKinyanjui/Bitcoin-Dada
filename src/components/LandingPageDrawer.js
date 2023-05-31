@@ -7,7 +7,7 @@ function LandingPageDrawer({toggleDrawer}) {
      <div className='w-screen h-[max-content] grid items-center place-content-start bg-[#aaa9a7] pb-4'>
 
        <div className='flex justify-between px-4 w-screen py-4 items-center'>
-       <div className=' '><img src='/images/logo.png' className={` w-[80px] h-[100px]l `}/></div>
+       <div className={`${stylesz.ComponentDivImage}`}><img src='/images/logo2.jpg' className='w-full h-full' /></div>
       
       <div className="flex"  >
         < CloseIcon className='w-[35px] h-[30px] text-black ' onClick={ toggleDrawer(false)} />

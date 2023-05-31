@@ -27,7 +27,7 @@ const toggleDrawer = (open) => (event) => {
     {/* Desktop */}
     <div className='w-screen hidden md:grid'>
     <div className={`${styles.NavDesktop} w-4/5 mx-auto flex justify-between items-center`}>
-    <div className={`${styles.LogoDiv}`}><img src='/images/logo.png' className={`${styles.logoDesktop} w-full h-full`}/></div>
+    <div className={`${styles.LogoDiv}`}><img src='/images/logo2.jpg' className=' w-full h-full'/></div>
     <div className={`${styles.NavItemsDEsktopDiv}`}>
       <p className={`${styles.NavItemDesktop}`}>About Us</p>
       <p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p>
@@ -42,7 +42,7 @@ const toggleDrawer = (open) => (event) => {
   {/* Mobile Design */}
   <div className='grid md:hidden'>
   <div className={`${styles.NavDesktopComponent} w-10/12  mx-auto flex justify-between items-center`}> 
-          <div><img src='/images/logo.png' className='w-[120px] h-[80px]' /></div>
+          <div className={`${styles.ComponentDivImage}`}><img src='/images/logo2.jpg' /></div>
           <div className='flex'  >
                   <BiMenu  onClick={toggleDrawer(true)} className='text-white text-3xl'/>    
         <SwipeableDrawer

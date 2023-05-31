@@ -4,26 +4,63 @@
 }
 .ImageContainer{
     position: relative;
-    height: 65h;
+    height: 70vh;
+    width: 100vw;
+    /* border: 1px solid green; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/newsbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ImageContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgb(12, 12, 8),transparent, transparent);
+  }
+.ImageContainerIndividualImage{
+    position: absolute;
+    width: 100vw;
+    /* height: 60vh; */
+}
+.NewsandPress{
+    position: absolute;
+    bottom: 30%;
+    color: #FFAF00;
+    font-family: System;
+    font-size: 64px;
 }
 .IndividualWhatWeDoTopic{
     font-family: System;
     font-size: xx-large;
 }
 .IndividualWhatWeDo1{
-    width: 80%;
+    width: 70%;
     margin: auto;
     height:  max-content;
-    /* background: rgba(255, 175, 0, 0.1); */
     color: white;
 }
 
 @media screen and (max-width:920px) {  
+    .NewsandPress{
+        font-size: 50px;
+    }
     .IndividualWhatWeDo1{
-        width: 85%;
+        width: 80%;
     }
     .ImageContainer{
         position: relative;
         height:40vh;
+    }
+}
+@media screen and (max-width:768px) {  
+    .NewsandPress{
+        font-size: 40px;
     }
 }

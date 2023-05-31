@@ -4,25 +4,35 @@
 }
 .ImageContainer{
     position: relative;
-    height: 40vh;
+    height: 60vh;
+    width: auto;
 }
 .IndividualWhatWeDoTopic{
     font-family: System;
     font-size: xx-large;
 }
 .IndividualWhatWeDo1{
-    width: 80%;
+    width: 50%;
     margin: auto;
-    height: 50vw;
+    height: 50vh;
     background: rgba(255, 175, 0, 0.1);
     color: white;
 }
 
+
+@media screen and (max-width:1200px) {  
+    .IndividualWhatWeDo1{
+        width: 75%;
+        margin: auto;
+        height: 50vh;
+    }
+  
+}
 @media screen and (max-width:920px) {  
     .IndividualWhatWeDo1{
         width: 85%;
         margin: auto;
-        height: 40vh;
+        height: 45vh;
     }
     .ImageContainer{
         position: relative;

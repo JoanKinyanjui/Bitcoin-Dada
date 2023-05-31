@@ -4,9 +4,10 @@
    
 }
 .LogoDiv{
-width: 150px;
-height: 89px;
-
+width: 100px;
+height: 90px;
+border-radius: 100%;
+overflow: hidden;
 }
 .NavItemsDEsktopDiv{
     display: flex;
@@ -342,6 +343,10 @@ border-radius: 15px;
  }       
  }
 @media screen and (max-width:768px) {
+    .LogoDiv{
+        width: 90px;
+        height: 70px;
+        }
     .YellowLine{
         width: 80px;
     }
@@ -522,4 +527,13 @@ border-radius: 15px;
 .NavItemsDEsktopDiv{
     display: hidden;
 }
+}
+
+
+.ComponentDivImage{
+    border-radius: 100%;
+    border: 1px solid #FFAF00;
+    overflow: hidden;
+    width: 100px;
+    height: 80px;
 }

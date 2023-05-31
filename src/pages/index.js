@@ -12,6 +12,7 @@ import Subscribe from '@/components/Subscribe';
 import WhatWeDo from '@/components/WhatWeDo';
 import AboutUs from '@/components/AboutUs';
 import Nav from '@/components/Nav';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -66,7 +67,7 @@ export default function Home() {
 <div className='grid items-center'>
 <p className={`${styles.AboutUsDesktop} w-3/4 px-6 flex flex-wrap text-white `}>Donate</p>
 <div className=' px-6'>
-  <button className={`${styles.ButtonsForDesktop}`}>Donate</button>
+<Link href='/contact'> <button className={`${styles.ButtonsForDesktop}`}>Donate</button></Link>
 </div>
 </div>
 <div className={`${styles.giftDesktopDiv}`} >

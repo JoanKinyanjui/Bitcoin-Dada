@@ -21,7 +21,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 29px;
-margin: 0px 24px;
+margin: 0px 10px;
 }
 .HeroSectionDesktop{
     width: 100vw;
@@ -60,7 +60,7 @@ padding: 10px 20px;
 width: 140px;
 height: 45px;
 background: #FFAF00;
-border-radius: 10px;
+border-radius: 5px;
 font-weight: 400;
 font-size: 20px;
 }
@@ -229,6 +229,12 @@ border-radius: 15px;
 }
 
 @media screen and (max-width:1200px) {
+    .NavItemsDEsktopDiv{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        color: white;
+    }
     .TopicPtag{
         font-weight: 700;
         font-size: 40px;
@@ -265,6 +271,10 @@ border-radius: 15px;
     width: 50%;
 }
 @media screen and (max-width:920px) {
+    .NavItemDesktop{
+        font-size: 18px;
+        line-height: 29px;
+        }
     .YellowLine{
         width: 100px;
     }
@@ -337,15 +347,20 @@ border-radius: 15px;
         border-radius: 10px;
         }
 .ButtonsForDesktop{
- width: 150px;
- border-radius: 10px;
- height: 50px;
- }       
+ width: 120px;
+ border-radius: 5px;
+ height: 45px;
+ }
+ .ButtonDesktop{
+width: 120px;
+ border-radius: 5px;
+ height: 45px;
+ }
  }
 @media screen and (max-width:768px) {
     .LogoDiv{
-        width: 90px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         }
     .YellowLine{
         width: 80px;
@@ -534,6 +549,6 @@ border-radius: 15px;
     border-radius: 100%;
     border: 1px solid #FFAF00;
     overflow: hidden;
-    width: 100px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }

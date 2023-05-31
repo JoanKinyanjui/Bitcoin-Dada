@@ -42,7 +42,7 @@ const toggleDrawer = (open) => (event) => {
   {/* Mobile Design */}
   <div className='grid md:hidden'>
   <div className={`${styles.NavDesktopComponent} w-10/12  mx-auto flex justify-between items-center`}> 
-          <div className={`${styles.ComponentDivImage}`}><img src='/images/logo2.jpg' /></div>
+          <div className={`${styles.ComponentDivImage}`}><img src='/images/logo2.jpg' className='w-full h-full' /></div>
           <div className='flex'  >
                   <BiMenu  onClick={toggleDrawer(true)} className='text-white text-3xl'/>    
         <SwipeableDrawer

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Drawer.module.css'
 import stylesz from '../styles/index.module.css';
 import CloseIcon from '@mui/icons-material/Close';
@@ -16,9 +17,9 @@ function LandingPageDrawer({toggleDrawer}) {
     <div className={`${styles.NavDesktop} w-screen px-4 mx-auto grid justify-between items-center`}>
    
     <div className={`${styles.NavItemsDEsktopDiv} py-4`}>
-      <p className={`${styles.NavItemDesktop} py-2`}>About Us</p>
-      <p className={`${styles.NavItemDesktop} py-2`}>Learn Bitcoin</p>
-      <p className={`${styles.NavItemDesktop} py-2`}>News</p>
+    <Link href='/' >  <p className={`${styles.NavItemDesktop} py-2`}>About Us</p></Link > 
+    <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop} py-2`}>Learn Bitcoin</p></Link > 
+    <Link href='/news' ><p className={`${styles.NavItemDesktop} py-2`}>News</p></Link > 
     </div>
     <div>
       <button className={`${stylesz.ButtonDesktop} flex items-center text-white place-content-center`}>Donate</button>

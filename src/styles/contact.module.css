@@ -26,6 +26,7 @@
     width: 70%;
     background-color: gainsboro;
     padding: 10px 2px;
+    color: black;
 }
 .InputField:focus{
     outline: none;
@@ -37,6 +38,7 @@
 }
 .InputField1{
     width: 70%;
+    color: black;
     background-color: gainsboro;
     min-height: 25vh;
 }

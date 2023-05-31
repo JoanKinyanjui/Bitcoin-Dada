@@ -33,6 +33,7 @@ const toggleDrawer = (open) => (event) => {
       <Link href='/' > <p className={`${styles.NavItemDesktop}`}>Home</p></Link>
       <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p></Link>
       <Link href='/news' > <p className={`${styles.NavItemDesktop}`}>News</p></Link>
+      <Link href='/contact' > <p className={`${styles.NavItemDesktop}`}>Contact</p></Link>
     </div>
     <div>
       <button className={`${styles.ButtonDesktop} flex items-center text-white place-content-center`}>Donate</button>

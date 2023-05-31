@@ -2,6 +2,7 @@ import styles from '../styles/footer.module.css'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -30,11 +31,11 @@ function Footer() {
       <div className={`${styles.GridFooterDesktop}  className='grid  place-content-center md:place-content-start  text-center`}>
       <div className=' w--full sm:w-1/2 md:w-[max-content] md:text-start mx-auto'>
         <p className={`${styles.MainWords} py-4`}>Ouick Links</p>
-        <p>About Us</p>
-        <p>Meet Ups</p>
-        <p>Learn Bitcoin</p>
-        <p>News & Press</p>
-        <p>Donate</p>
+       <Link href='/'> <p>Home</p></Link> 
+        <Link href='/learnBitcoin'><p>Learn Bitcoin</p></Link> 
+        <Link href='/news'><p>News & Press</p></Link> 
+        <Link href='/contact'> <p>Contact</p></Link> 
+        <Link href='https://donation.btcdada.com/'> <p>Donate</p></Link> 
         </div>
        </div>
       </Grid>

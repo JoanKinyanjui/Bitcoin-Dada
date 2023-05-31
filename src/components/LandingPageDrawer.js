@@ -20,6 +20,7 @@ function LandingPageDrawer({toggleDrawer}) {
     <Link href='/' >  <p className={`${styles.NavItemDesktop} py-2`}>Home</p></Link > 
     <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop} py-2`}>Learn Bitcoin</p></Link > 
     <Link href='/news' ><p className={`${styles.NavItemDesktop} py-2`}>News</p></Link > 
+    <Link href='/contact' > <p className={`${styles.NavItemDesktop}`}>Contact</p></Link>
     </div>
     <div>
       <button className={`${stylesz.ButtonDesktop} flex items-center text-white place-content-center`}>Donate</button>

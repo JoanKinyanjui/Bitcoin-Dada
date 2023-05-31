@@ -1,0 +1,107 @@
+.ContactDiv{
+    width: 100vw;
+    min-height: 100vh;
+}
+.ContactDivContainer{
+    width: 80vw;
+    display: flex;
+    height: max-content;
+}
+.ContactImg{
+    flex: 50%;
+    height: 50vh;
+}
+.InputFormDiv{
+    width: 50%;
+    /* background-color: cadetblue; */
+}
+.InputFieldDiv{
+    width: 100%;
+    /* background-color: blue; */
+    display: grid;
+    /* gap: 30px; */
+    margin-bottom: 2rem;
+}
+.InputField{
+    width: 70%;
+    background-color: gainsboro;
+    padding: 10px 2px;
+}
+.InputField:focus{
+    outline: none;
+    border: none;
+}
+.InputField1:focus{
+    outline: none;
+    border: none;
+}
+.InputField1{
+    width: 70%;
+    background-color: gainsboro;
+    min-height: 25vh;
+}
+.GetInTuchDiv{
+    font-family: System;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFAF00;
+}
+@media screen and (max-width:1200px) {
+    .ContactDivContainer{
+        width: 85vw;
+    }
+    .ContactImg{
+        flex: 55%;
+        height: 60vh;
+    }
+}
+@media screen and (max-width:920px) {
+    .ContactDivContainer{
+        width: 70vw;
+        display: flex;
+        height: max-content;
+    }
+    .ContactDivContainer{
+        width: 80vw;
+        display: grid;
+        height: max-content;
+    }
+    .ContactImg{
+        flex: 70%;
+        height: 40vh;
+    }
+    .InputFormDiv{
+        width: 80%;
+        margin: auto;
+    }
+    .InputField1{
+        width: 100%;
+        min-height: 15vh;
+    }
+    .InputField{
+        width: 100%;
+    }
+    .GetInTuchDiv{
+        font-family: System;
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .GetInTuchDiv{
+        font-family: System;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .InputFormDiv{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:520px) {
+.ContactDivContainer{
+    padding-top: 2rem;
+    width: 100vw;
+}
+}

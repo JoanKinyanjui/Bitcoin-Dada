@@ -30,7 +30,7 @@ const toggleDrawer = (open) => (event) => {
     <div className={`${styles.NavDesktop} w-4/5 mx-auto flex justify-between items-center`}>
     <div className={`${styles.LogoDiv}`}><img src='/images/logo2.jpg' className=' w-full h-full'/></div>
     <div className={`${styles.NavItemsDEsktopDiv}`}>
-      <Link href='/' > <p className={`${styles.NavItemDesktop}`}>About Us</p></Link>
+      <Link href='/' > <p className={`${styles.NavItemDesktop}`}>Home</p></Link>
       <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p></Link>
       <Link href='/news' > <p className={`${styles.NavItemDesktop}`}>News</p></Link>
     </div>

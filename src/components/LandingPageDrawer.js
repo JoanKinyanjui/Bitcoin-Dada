@@ -17,7 +17,7 @@ function LandingPageDrawer({toggleDrawer}) {
     <div className={`${styles.NavDesktop} w-screen px-4 mx-auto grid justify-between items-center`}>
    
     <div className={`${styles.NavItemsDEsktopDiv} py-4`}>
-    <Link href='/' >  <p className={`${styles.NavItemDesktop} py-2`}>About Us</p></Link > 
+    <Link href='/' >  <p className={`${styles.NavItemDesktop} py-2`}>Home</p></Link > 
     <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop} py-2`}>Learn Bitcoin</p></Link > 
     <Link href='/news' ><p className={`${styles.NavItemDesktop} py-2`}>News</p></Link > 
     </div>

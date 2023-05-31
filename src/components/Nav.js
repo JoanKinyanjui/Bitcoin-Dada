@@ -3,6 +3,7 @@ import styles from '../styles/index.module.css';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import LandingPageDrawer from '@/components/LandingPageDrawer';
 import {BiMenu} from 'react-icons/bi'
+import Link from 'next/link';
 
 
 
@@ -29,9 +30,9 @@ const toggleDrawer = (open) => (event) => {
     <div className={`${styles.NavDesktop} w-4/5 mx-auto flex justify-between items-center`}>
     <div className={`${styles.LogoDiv}`}><img src='/images/logo2.jpg' className=' w-full h-full'/></div>
     <div className={`${styles.NavItemsDEsktopDiv}`}>
-      <p className={`${styles.NavItemDesktop}`}>About Us</p>
-      <p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p>
-      <p className={`${styles.NavItemDesktop}`}>News</p>
+      <Link href='/' > <p className={`${styles.NavItemDesktop}`}>About Us</p></Link>
+      <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p></Link>
+      <Link href='/news' > <p className={`${styles.NavItemDesktop}`}>News</p></Link>
     </div>
     <div>
       <button className={`${styles.ButtonDesktop} flex items-center text-white place-content-center`}>Donate</button>

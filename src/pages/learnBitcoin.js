@@ -9,7 +9,7 @@ function LearnBitcoin() {
     <div className={`${stylesz.OverallLearnPage}`}>
     <Nav />
     <div className={`${stylesz.ImageContainer}`}>
-        <img src='/images/now.png' className='w-full h-full'/>
+        <img src='https://images.pexels.com/photos/5940845/pexels-photo-5940845.jpeg?auto=compress&cs=tinysrgb&w=1600' className='w-full h-full'/>
     </div>
     <div className='py-12'>
     <div className={`${stylesz.IndividualWhatWeDo1} text-center grid items-center py-8 md:py-4`}>

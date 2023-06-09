@@ -4,8 +4,9 @@
 }
 .ImageContainer{
     position: relative;
-    height: 60vh;
-    width: auto;
+    height: 70vh;
+    /* height: auto; */
+    width: 100vw;
 }
 .IndividualWhatWeDoTopic{
     font-family: System;
